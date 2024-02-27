@@ -1,32 +1,17 @@
 @font-face {
-  font-family: Formula-Condensed;
-  src: url("/public/font/FormulaCondensed/FormulaCondensed-Light.otf")
-    format("opentype");
-  font-weight: lighter;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Formula-Condensed;
-  src: url("/public/font/FormulaCondensed/FormulaCondensed-Bold.otf")
-    format("opentype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Roboto;
-  src: url("/public/font/Roboto/Roboto-Medium.ttf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: Roboto;
   src: url("/public/font/Roboto/Roboto-Black.ttf")
     format("opentype");
   font-weight: bold;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'MangoGrotesque';
+  src: url('/public/font/Humane/Humane-Bold.woff2') format('woff2'), /* Modern Browsers */
+       url('/public/font/Humane/Humane-Bold.otf') format('opentype'); /* Safari, Android, iOS */
+           font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
 }
 

@@ -1,0 +1,33 @@
+@import "/src/styles/global.scss";
+
+.slide-in {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0%;
+  cursor: wait;
+
+  &-1 {
+    background-color: $c-blue;
+    z-index: 102;
+
+  }
+  
+  &-2 {
+    background-color: $c-green;
+    z-index: 101;
+  }
+  
+  &-3 {
+    z-index: 100;
+    background-color: $c-pink;
+  }
+
+  &-4 {
+    background-color: $c-blue;
+    z-index: 98;
+
+
+  }
+}
