@@ -9,17 +9,10 @@ export const PresenceAnim = () => {
     tl.to(curS, {
       yPercent: -100,
       duration: 1,
+      delay: 0.1,
       ease: 'power3.out'
     }, '<25%')
   })
-
-  // tl.to(slides, {
-  //   yPercent: -100,
-  //   duration: 1,
-  //   delay: 1,
-  //   stagger: .5,
-  //   ease: 'power3.out'
-  // })
 
   return tl;
 }
